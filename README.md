@@ -7,7 +7,7 @@ Este repositório é dedicado a todas as soluções enviadas para o [frontendmen
 
 | Tags  | Challanges | Live|  Code|  Type| 
 | --- | -- |  -- | --  |  -- |
-| HTML--CSS      |  Stats preview card component | [Live](https://qr-code-component-omega-bay.vercel.app/) | [Code](https://github.com/prmergu/frontendmentor_challenges/tree/main/qr-code-component) |Free|
+| HTML--CSS      |  QR code component            | [Live](https://qr-code-component-omega-bay.vercel.app/) | [Code](https://github.com/prmergu/frontendmentor_challenges/tree/main/qr-code-component) |Free|
 | ----------     |  ---------------------------  | -----------------------------------------------------------  | ---------------------------- |Free|
 | ----------     |  ---------------------------  | -----------------------------------------------------------  | ---------------------------- |Free|
 | ----------     |  ---------------------------  | -----------------------------------------------------------  | ---------------------------- |Free|
