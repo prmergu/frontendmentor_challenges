@@ -22,13 +22,12 @@ body {
     position: relative;
 }
 
-
 .card {
     background-color: hsl(0, 0%, 100%);
     text-align: center;
     padding: 0px;
     border-radius: 18px;
-    
+    margin: 15px;
 }
 
 .card img {
@@ -40,17 +39,17 @@ body {
 
 .card-content h1 {
     font-weight: 900;
-    font-size: 1.4em;
+    font-size: 1.3em;
     color: hsl(223, 47%, 23%);
-    margin: 22px;
+    margin: 25px;
 }
 
 .card-content p {
     font-weight: 500;
-    font-size: 1.1em;
-    line-height: 1.5;
+    font-size: 0.95rem;
+    line-height: 1.6;
     color: hsl(224, 23%, 55%);
-    margin: 25px;
+    margin: 33px;
 }
 
 .card-icon-music {
@@ -64,49 +63,55 @@ body {
 .card-icon-music img {
     display: flex;
     align-items: start;
-    width: 50px;
-    margin: 18px;
-    box-shadow: 1px  rgba(0, 0, 0, 0.384);
+    width: 48px;
+    margin: 19px;
+    box-shadow: 1px rgba(0, 0, 0, 0.384);
 }
 
 .card-icon-music a {
     font-weight: 700;
     font-size: 0.8rem;
-    margin: 30px 0px 0px 50px;
+    margin: 30px 0px 0px 30px;
+    cursor: pointer;
 }
 
 .card-plan {
-    margin: 10px;
+    margin: 8px;
 }
 
-#year {
+span#year {
     display: block;
     font-weight: 900;
-    font-size: 1em;
+    font-size: 0.96em;
     color: hsl(223, 47%, 23%);
-    margin-top: 9px;
+    margin-top: 12px;
 }
 
-#price {
+span#price {
     display: block;
     font-weight: 500;
-    font-size: 1em;
+    font-size: 0.9em;
     color: hsl(224, 23%, 55%);
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 input[type=submit] {
     display: inline-block;
     font-weight: 700;
-    font-size: 0.96em;
+    font-size: 0.9em;
     background-color: hsl(245, 75%, 52%);
     color: white;
     height: 53px;
-    padding-inline: 23%;
+    padding-inline: 21%;
     margin-bottom: 31px;
     border-radius: 10px;
     border: 0px;
     box-shadow: 0px 20px 5px hsla(0, 0%, 0%, 0.096);
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    background-color: hsl(224, 23%, 55%);
 }
 
 input[type=reset] {
@@ -119,4 +124,9 @@ input[type=reset] {
     padding-inline: 20%;
     margin-bottom: 30px;
     border-style: none;
+}
+
+input[type=reset]:hover {
+    cursor: pointer;
+    color: hsl(223, 47%, 23%);
 }
