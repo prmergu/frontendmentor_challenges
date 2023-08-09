@@ -8,7 +8,7 @@ Este repositório é dedicado a todas as soluções enviadas para o [frontendmen
 | Tags  | Challanges | Live|  Code|  Type| 
 | --- | -- |  -- | --  |  -- |
 | HTML--CSS      |  QR-Code | [Live](https://qr-code-component-omega-bay.vercel.app/) | [Code](https://github.com/prmergu/frontendmentor_challenges/tree/main/qr-code-component) |Free|
-| ----------     |  ------------------  | ------------------------------------  | ---------------------------- |Free|
+| HTML--CSS      |  Order-Summary       | [Live](https://order-summary-component-sandy-gamma.vercel.app/)  | [Code](https://github.com/prmergu/frontendmentor_challenges/tree/main/order-summary-component) |Free|
 | ----------     |  ------------------  | ------------------------------------  | ---------------------------- |Free|
 | ----------     |  ------------------  | ------------------------------------  | ---------------------------- |Free|
 | ----------     |  ------------------  | ------------------------------------  | ---------------------------- |Free|
