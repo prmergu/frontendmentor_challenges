@@ -2,5 +2,6 @@
 
 Desafio #3 do FrontendMentor.io
 
-# Em construção
-![Design preview for the Order summary card coding challenge](./design/desktop-design.jpg)
+Site: https://product-preview-card-ashy.vercel.app/
+
+![prmergu](https://github.com/prmergu/frontendmentor_challenges/blob/main/product-preview-card/design/screenshot.jpg)
