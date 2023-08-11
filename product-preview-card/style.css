@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+/*font-family: 'Montserrat', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+/*font-family: 'Fraunces', serif;*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body,
+html {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 350px;
+    margin: auto;
+}
+
+
+.container {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+
+.img {
+    background: url(images/image-product-mobile.jpg) no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 350px;
+    margin: 0 auto;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.text {
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.text h1 {
+    font-size: 12px;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+.text h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 35px;
+    line-height: 1em;
+    padding-bottom: 12px;
+}
+
+.text p {
+    text-align: left;
+    line-height: 1.7em;
+    color: hsl(228, 12%, 48%);
+    margin-right: 10px;
+    padding-bottom: 12px;
+}
+
+.price {
+    display: flex;
+    align-items: flex-end;
+    gap: 15px;
+    padding-bottom: 12px;
+}
+
+.price h3 {
+    font-family: 'Fraunces', serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: hsl(158, 36%, 37%);
+}
+
+.price p {
+    font-size: 13px;
+    text-decoration: line-through;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: hsl(158, 36%, 37%);
+    padding: 17px;
+    padding-inline: 31%;
+    border: none;
+    border-radius: 8px;
+}
+
+.button img {
+    width: 18px;
+}
+
+.button a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    color: hsl(30, 38%, 92%);
+}
+
+.button:hover {
+    background-color: hsl(158, 94%, 14%);
+    cursor: pointer;
+}
+
+@media screen and (min-width: 992px) {
+    body, html {
+        max-width: 620px;
+    }
+
+    .container {
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .img {
+        background: url(images/image-product-desktop.jpg) no-repeat;
+        background-size: cover;
+        height: 500px;
+        width: 950px;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .text {
+        padding: 30px;
+    }
+
+    .text h1 {
+        padding-bottom: 35px;
+    }
+
+    .text h2 {
+        padding-bottom: 20px;
+    }
+
+    .price {
+        padding: 30px 0px;
+    }
+
+    .button {
+        padding: 15px;
+        padding-inline: 25%;
+    }
+}
