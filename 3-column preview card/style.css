@@ -1,0 +1,118 @@
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Lexend+Deca&display=swap');
+/*H1*/
+  @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+/*P*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #ffffff;
+    color: rgb(27, 27, 27);
+    Font-size: 15px;  
+    overflow-x: hidden;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 230px;
+    height: 650px;
+}
+
+article {
+    padding: 0px 30px;
+}
+
+article img {
+    width: 45px;
+    margin-top: 30px;
+}
+article h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 1.8em;
+    text-transform: uppercase;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+
+article p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.7em;
+    line-height: 2em;
+    margin: 20px 0px;
+    color: #ffffff;
+}
+.sedan {
+    background: #e38826;
+    border-radius: 5px 5px 0px 0px;   
+}
+.sedan > input {
+    color: #e38826;
+}
+
+.suv {
+    background-color: #006970;
+}
+
+.suv > input {
+    color: #006970;
+}
+
+.luxury {
+    background-color: #004241;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.luxury > input {
+    color: #004241;
+}
+input {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 0.7em;
+    border-radius: 20px;
+    border: none;
+    width: 95px;
+    height: 32px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+input:hover  {
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	color: #ffffff;
+}
+
+@media screen and (min-width: 900px) {
+
+    
+section {
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+    height: 500px;
+    font-size: 19px;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.sedan {
+    border-radius: 5px 0px 0px 5px;   
+}
+.luxury {
+    border-radius: 0px 5px 5px 0px;
+}
+}
