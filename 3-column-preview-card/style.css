@@ -96,23 +96,48 @@ input:hover  {
 @media screen and (min-width: 900px) {
 
     
+    
 section {
     display: flex;
     flex-direction: row;
-    width: 850px;
-    height: 500px;
+    width: 845px;
+    height: 495px;
     font-size: 19px;
 }
 
 article {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: start;
+    gap: 10px;
+    padding: 0px 40px;
+    
 }
+
+article img {
+    width: 60px;
+    margin: 35px 0px;
+}
+
+article h1{
+   margin: 0px 0px;
+}
+
+article p {
+    margin: 20px 0px 40px 0px;
+}
+
 .sedan {
     border-radius: 5px 0px 0px 5px;   
 }
 .luxury {
     border-radius: 0px 5px 5px 0px;
+}
+
+input {
+    width: 120px;
+    height: 40px;
+    margin: 30px 0px 0px 0px;
+
 }
 }
