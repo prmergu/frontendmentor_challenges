@@ -1,7 +1,6 @@
 # Frontend Mentor - QR code component
 
-Desafio #1 do FrontendMentor.io
-https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H
+Desafio: https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H
 
 Site: https://qr-code-component-omega-bay.vercel.app/
 
