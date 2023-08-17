@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@200;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color:  #e5eff5;
+}
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    width: 20rem;
+    height: 40rem;
+    Font-size: 0.9rem;
+    font-family: 'Karla', sans-serif;
+    color: #ffffff;
+    line-height: 1.6rem;
+    border-radius: 10px;
+}
+
+section h3 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-bottom: 1.4rem;
+}
+
+.box01{
+    background-color: #ffffff;
+    color: #bcbec0;
+    border-radius: 10px 10px 0px 0px;
+    padding: 1.2rem;
+}
+
+.box01 h1 {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color:#2bb4b1;
+    padding: 1.3rem 0rem;
+}
+
+.box01 h2 {
+    font-weight: 700;
+    font-size: 1rem;
+    color: #bedf32;
+    padding-bottom: 1.4rem;
+}
+
+.box02 {
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: #2bb4b1;
+    padding: 1.2rem;
+}
+
+.box02 > .price {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    font-size: 1.4rem;
+    padding-bottom: 1rem;
+}
+
+.box02 > .price p {
+    font-weight: 200;
+    font-size: 1rem;
+}
+
+.box02 input {
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: #bedf32;
+    color: #ffffff;
+    width: 16.8rem;
+    height: 3.2rem;
+    border: none;
+    border-radius: 0.4rem;
+    margin-top: 1.4rem;
+}
+
+.box03 {
+    background-color: rgb(73, 190, 189);
+    padding: 1.2rem;
+    border-radius: 0px 0px 10px 10px;
+}
+.box03 ul {
+    list-style: none;
+}
+
+@media screen and (min-width: 992px){
+    
+
+    section {
+        width: 40rem;
+        height: 50rem;
+        Font-size: 1rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+    .box01 {
+        width: 100rem;
+        padding: 2rem;
+    }
+    .box02{
+        width: 20rem;
+        padding: 2.2rem;
+        border-radius: 0px 0px 0px 10px;
+    }
+    .box02 input {
+        margin-top: 3rem;
+        width: 16rem;
+    }
+    
+
+    .box03 {
+        width: 20rem;
+        padding: 2.2rem;
+        border-radius: 0px 0px 10px 0px; 
+    }
+}
