@@ -10,6 +10,8 @@
 
 body {
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
     background: url(./images/pattern-background-mobile.svg) no-repeat;
     background-size: cover;
@@ -102,8 +104,8 @@ input[type=submit] {
     background-color: hsl(245, 75%, 52%);
     color: white;
     height: 53px;
-    padding-inline: 21%;
-    margin-bottom: 31px;
+    padding-inline: 4rem;
+    margin-bottom: 2rem;
     border-radius: 10px;
     border: 0px;
     box-shadow: 0px 20px 5px hsla(0, 0%, 0%, 0.096);
