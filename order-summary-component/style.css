@@ -65,8 +65,8 @@ body {
 .card-icon-music img {
     display: flex;
     align-items: start;
-    width: 48px;
-    margin: 19px;
+    width: 3rem;
+    margin: 1.4rem;
     box-shadow: 1px rgba(0, 0, 0, 0.384);
 }
 
@@ -123,8 +123,8 @@ input[type=reset] {
     background-color: white;
     color: hsl(224, 23%, 55%);
     height: 20px;
-    padding-inline: 20%;
-    margin-bottom: 30px;
+    padding-inline: 4rem;
+    margin-bottom: 2rem;
     border-style: none;
 }
 
