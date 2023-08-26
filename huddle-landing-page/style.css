@@ -111,8 +111,8 @@ ion-icon:hover {
 
     section .mockups {
         margin: 0px 50px;
-        width: 40rem;
-        height: 30rem;
+        width: 50rem;
+        height: 40rem;
     }
 
     article  {
@@ -120,14 +120,15 @@ ion-icon:hover {
         flex-direction: column;
         align-items: flex-start;
         text-align: left;
+        
     }
 
     article  h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
 
     article  p {
-        font-size: 1rem;
+        font-size: 1.1rem;
     }
 
     input {
